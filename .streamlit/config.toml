@@ -11,13 +11,13 @@ headless = true
 # Default port for Streamlit
 port = 8501
 
-# Enable CORS to allow iframe embedding from Vercel
-enableCORS = true
+# IMPORTANT: Must be false to allow iframe embedding from frontend
+enableCORS = false
 
-# Disable XSRF protection for public API access
+# Disable XSRF protection for cross-origin iframe embedding
 enableXsrfProtection = false
 
-# Allow connections from any origin
+# Allow iframe embedding from any origin
 [browser]
 # Don't gather usage statistics
 gatherUsageStats = false

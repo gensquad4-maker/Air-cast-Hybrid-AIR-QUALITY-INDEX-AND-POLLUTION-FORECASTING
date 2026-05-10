@@ -71,9 +71,9 @@ const ContactSection = () => {
 
             <div className="space-y-4">
               {[
-                { icon: Mail, label: 'Email', value: 'keerthi62562@gmail.com' },
-                { icon: Phone, label: 'Mobile', value: '7904249914' },
-                { icon: User, label: 'Research Team', value: 'Binary X' },
+                { icon: Mail, label: 'Email', value: 'gensquad4@gmail.com' },
+                { icon: Phone, label: 'Mobile', value: '+91 7397 066 177' },
+                { icon: User, label: 'Research Team', value: 'Sibi & Jeni' },
               ].map((item, index) => (
                 <motion.div
                   key={item.label}

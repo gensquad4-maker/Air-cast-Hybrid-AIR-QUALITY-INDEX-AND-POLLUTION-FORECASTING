@@ -12,7 +12,7 @@ const Footer = () => {
                         <span className="font-serif font-bold text-xl text-primary">AirCast</span>
                     </div>
                     <div className="text-sm text-muted-foreground">
-                        © 2026 B.Tech AI & DS Final Year Project | Contact: 7397066177 | pixelsquad4@gamil.com
+                        © 2026 B.Tech AI & DS Final Year Project | Contact: +91 6380 357 671 | fabcoe@gmail.com
                     </div>
                 </div>
             </div>
